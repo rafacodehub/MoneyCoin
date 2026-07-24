@@ -182,7 +182,7 @@ It helps a lot!
 
 <br><br>
 
-<img src="https://media.tenor.com/2roX3uxz_68AAAAC/brent-rambo.gif](https://media1.tenor.com/m/myWhE0y5rTsAAAAC/brent-rambo-thumbs-up.gif" width="240"/>
+<img src="https://media1.tenor.com/m/ho7tPHaTCyIAAAAC/brent-rambo-thumbsup.gif" width="240"/>
 
 
 </div>
