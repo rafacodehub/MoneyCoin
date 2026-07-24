@@ -23,3 +23,19 @@
  .detail-topline{align-items:flex-start;flex-direction:column;gap:10px}
  .detail-updated{text-align:left}
 }
+
+@media(max-width:1100px){
+  .detail-chart{height:330px;min-height:330px;max-height:330px}
+  #compareChart.chart.large{height:350px;min-height:350px;max-height:350px}
+}
+@media(max-width:760px){
+  .detail-chart{height:285px;min-height:285px;max-height:285px}
+  #compareChart.chart.large{height:300px;min-height:300px;max-height:300px}
+  #overviewChart.chart{height:285px;min-height:285px;max-height:285px}
+  .comparator{min-height:0}
+}
+@media(max-width:480px){
+  .detail-chart{height:240px;min-height:240px;max-height:240px}
+  #compareChart.chart.large{height:255px;min-height:255px;max-height:255px}
+  #overviewChart.chart{height:250px;min-height:250px;max-height:250px}
+}

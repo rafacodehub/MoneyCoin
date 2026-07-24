@@ -131,3 +131,72 @@ h1{font-size:25px}
 .detail-fundamentals{grid-template-columns:repeat(3,1fr)}
 .about-card>p{color:#536159;line-height:1.75;margin-top:14px;font-size:12px}
 .empty-note{color:var(--muted);font-size:11px;margin-top:12px}
+
+/* GRAPH CONTAINMENT FIX v11 */
+.chart,
+.detail-chart,
+#compareChart,
+.main-panel #overviewChart{
+  position:relative;
+  display:block;
+  width:100%;
+  max-width:100%;
+  min-width:0;
+  overflow:hidden;
+  isolation:isolate;
+}
+
+.chart > svg,
+.detail-chart > svg,
+#compareChart > svg,
+.main-panel #overviewChart > svg,
+.chart-svg,
+.interactive-line-chart{
+  display:block !important;
+  width:100% !important;
+  max-width:100% !important;
+  height:100% !important;
+  max-height:100% !important;
+  min-height:0 !important;
+  overflow:hidden !important;
+}
+
+.detail-main-card,
+.comparator{
+  min-width:0;
+  overflow:hidden;
+}
+
+.detail-chart{
+  height:360px;
+  min-height:360px;
+  max-height:360px;
+}
+
+#compareChart.chart.large{
+  height:390px;
+  min-height:390px;
+  max-height:390px;
+  margin-top:12px;
+}
+
+#overviewChart.chart{
+  height:335px;
+  min-height:335px;
+  max-height:335px;
+}
+
+.compare-chart-svg polyline,
+.candle-chart-svg line,
+.candle-chart-svg rect,
+.interactive-line-chart polyline,
+.interactive-line-chart polygon{
+  vector-effect:non-scaling-stroke;
+}
+
+/* Prevent SVG intrinsic aspect ratio from expanding the layout */
+svg.chart-svg,
+svg.interactive-line-chart{
+  aspect-ratio:auto !important;
+  vertical-align:top;
+}
