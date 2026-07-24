@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="assets/logo.png" width="95">
-
 # MoneyCoin
 
 ### Modern Financial Market Dashboard
@@ -184,6 +182,7 @@ It helps a lot!
 
 <br><br>
 
-<img src="https://media.tenor.com/2roX3uxz_68AAAAC/brent-rambo.gif" width="240"/>
+<img src="https://media.tenor.com/2roX3uxz_68AAAAC/brent-rambo.gif](https://media1.tenor.com/m/myWhE0y5rTsAAAAC/brent-rambo-thumbs-up.gif" width="240"/>
+
 
 </div>
